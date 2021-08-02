@@ -1,0 +1,9 @@
+{  
+	"service": {    
+		"name": "Service2",    
+		"tags": [      
+			"rails"    
+		],    
+		"port": 8282
+	}
+}

@@ -21,7 +21,7 @@ public class Controller {
 
     @GetMapping("/service2")
     public String service2() {
-        return "Service 1";
+        return template.getForObject(resolveURI(), String.class);
     }
 
     private URI resolveURI() {
